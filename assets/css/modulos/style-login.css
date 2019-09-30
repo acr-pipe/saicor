@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Avenir LT Std 45 Book';
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('../../../assets/fonts/Avenir LT Std 45 Book'), url('../../../assets/fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+.tusuario{ padding: 2%; }
+
+.button{
+  background: #87BC42 !important;
+}
+.button:hover{
+  background: #6E9D31 !important;
+}
+
+.cancelrecupss{
+  background: #F0F0F0;
+}
+.cancelrecupss:hover{
+  background: #E5E5E5;
+}
+
+.mynotify{
+  position: relative !important;
+}
+
+#sendrecupss{
+  background: #70BFEC !important; transition: ease 0.3s !important;
+}
+#sendrecupss:hover{background: #4DA0CF !important;}
+
+/*CONTRASEÑA*/
+.info_div {
+  z-index: 500;
+  position: absolute;
+  bottom: -75px;
+  bottom: -115px\9;
+  /* IE Specific */
+  right: 55px;
+  width: 250px;
+  padding: 15px;
+  background: #fefefe;
+  font-size: .875em;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #ccc;
+  border: 1px solid #ddd;
+}
+.info_div h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+}
+.info_div::before {
+  content: "\25B2";
+  position: absolute;
+  top: -12px;
+  left: 45%;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  text-shadow: none;
+  display: block;
+}
+.invalid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #ec3f41;
+}
+.valid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #3a7d34;
+}
+.info_div {
+  display: none;
+}
+/*END CONTRASEÑA*/
+
+
+#register{
+     color: #87BC42;
+     border: 1px solid #87BC42;
+     padding: 2px 4px;
+     transition: .5s ease;
+}
+
+#register:hover{
+     color: #fff;
+     border: 1px solid #87BC42;
+     padding: 2px 4px;
+     background: #6E9D31;
+}
+
+#recupss{
+     color: #87BC42;
+     border: 1px solid #87BC42;
+     padding: 2px 4px;
+     transition: .5s ease;
+}
+
+#recupss:hover{
+     color: #fff;
+     border: 1px solid #87BC42;
+     padding: 2px 4px;
+     background: #6E9D31;
+}
+
+#termycondiciones{
+  overflow-y: scroll;
+  height: 500px;
+  max-height: 500px;
+}
+
+footer{
+    bottom: 0%;
+    margin-top: 15%;
+}
+
+.textopc{
+    text-transform: capitalize !important;
+}
+
+@media screen and (min-width: 480px) {
+    .container-login{
+        width: 65%; margin: 0 auto;
+        padding: 1% 1% 1% 1%;
+    }
+}
+
+/*IMAGE CROP*/
+.container-crop {
+  max-width: 350px;
+  max-height: 350px;
+  margin: 0px auto;
+}
+
+.cropper-view-box,
+.cropper-face {
+  border-radius: 50%;
+}
+
+.cropper-modal{
+  opacity: .7 !important;
+  background-color: #000 !important;
+}
+
+img {
+  max-width: 100%;
+}
+/*END IMAGE CROP*/
+
+.cont-image{
+  height: 350px;
+  width: 350px;
+  background-image: url('../../../assets/img/bg.png');
+}

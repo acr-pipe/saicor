@@ -1,0 +1,72 @@
+footer{
+  margin-top: 0px !important;
+}
+
+.responsive-blog-footer {
+  background-color: #232323;
+  background-image: url("https://www.transparenttextures.com/patterns/rebel.png");
+  padding: 3rem 3rem !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 100%) {
+  .responsive-blog-footer h4 {
+    font-size: 1.5rem !important;
+  }
+}
+
+.responsive-blog-footer p {
+  color: #8a8a8a !important;
+}
+
+.responsive-blog-footer .mailing-list {
+  margin-bottom: 1.5rem !important;
+}
+
+.responsive-blog-footer .mailing-container {
+  margin-bottom: 2rem !important;
+}
+
+.responsive-blog-footer .about-section, .responsive-blog-footer .tag-section {
+  margin-bottom: 2rem !important;
+}
+
+.responsive-blog-footer .about-section a, .responsive-blog-footer .tag-section a {
+  color: #1779ba !important;
+}
+
+.responsive-blog-footer .fa-chevron-circle-up {
+  font-size: 3rem !important;
+  color: #8a8a8a !important;
+}
+
+.responsive-blog-footer .fa-chevron-circle-up:hover {
+  color: #b0b0b0 !important;
+  transition: color 0.3s ease-in !important;
+}
+
+.pub{
+  padding: 0.5em;
+}
+
+.ico{
+  color: #FAFAFA;
+  font-size: 1.2em;
+}
+
+.ico-fb:hover{
+  color: #3b5998;
+  /*facebook 3b5998*/
+}
+.ico-tw:hover{
+  color: #4099FF;
+  /*twitter 4099FF*/
+}
+.ico-yt:hover{
+  color: #e52d27;
+  /*youtube e52d27*/
+}
+.ico-is:hover{
+  color: #CC379C;
+  /*instagram bc2a8d*/
+}

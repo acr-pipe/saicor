@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head class="head">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=86400"/>
+    <title>Tienda Saicor</title>
+   
+    <link rel="stylesheet" type="text/css" href="../assets/css/modulos/system_carrito_taller.css">
+
+  </head>
+  <body>
+    {$NAV}
+
+<form id="formBTN" action='https://www.bookingplacecostarica.com/BotonPago/BookNow.aspx' method='POST'>
+  <!--  -->
+<div class="headkart" id="headkart">
+    <div class="large-12 medium-12 small-12 columns bg-dark" align="center">
+      <br>
+      <div class="small-6 columns" align="right">
+        <a href="#!" data-reveal-id="modal-cart" class="carticon button bg-orange">
+          <i class="fa fa-shopping-cart fa-2x"></i>
+          <b><span class="qtyitem">&nbsp;&nbsp;</span></b>
+        </a>
+      </div>
+      <div class="small-6 columns" align="left">
+        <label class="white-text">TOTAL:</label>
+        <h4 class="white-text"><b><span id="smoned">$</span><span class="totcart">0.00</span></b></h4>
+      </div>
+    </div>
+</div><br><br><br><br><br><br><br>
+<div  id="mostrarpag" style="background: #66B4E5; height: 500px;">
+<!-- JS -->
+</div>
+<div class="row align-center">
+<div class="product-details column medium-6 center-text-for-small-only">
+<br>
+  <div class="row">
+
+    <div class="column small-12 large-5">
+      <h6 class="product-color-title">Producto</h6>
+        <form class="product-option-selection">
+          <section id="listproduct"></section>
+        </form>
+    </div>
+
+    <div class="column small-12 large-7">
+      <h6 class="product-color-title">Descripción</h6>
+        <form class="product-option-selection">
+          <span id="desciprod" align="text-justify" style="font-size: 13px; color: #7F7F7F">Seleccione un producto para ver la descripción...</span>
+        </form>
+    </div>
+
+  </div>
+
+  <div class="product-details-add-to-cart">
+    <p><span class="in-stock">Disponibles</span> <span class="dim-text">($<span id="p1item">0.00</span> precio unitario)</span></p>
+    <hr>
+    <p class="price">$<span id="p2item">0.00</span></p>
+    <p> <span>Cantidad:</span> <input class="qty" type="text" value="1" min="1"> </p>
+    <button class="button expanded" id="btnagregar">Agregar al Carrito</button>
+  </div>
+  <p class="shipping" align="center">La compra de estos sellos es inmediata y su disponibilidad es digital.</p>
+</div>
+
+
+<!-- DIVISION -->
+
+<div class="product-details column medium-6 center-text-for-small-only">
+  <div class="product-details-add-to-cart">
+    <p><span class="user-data">Datos de Facturación - <b class="orange-text">N°</b><span id="idfact" class="ambar-text">000001</span></span></p>
+    <!-- - - - - - - - -->
+    <hr>
+    <div class="row">
+    <div class="column medium-5 small-12">
+      <p> <label>Nombre de factura:</label></p>
+    </div>
+    <div class="column medium-7 small-12">
+      <input class="nameclie creditcard" id="nomclie" type="text" value="Rodolfo Piza"> 
+    </div>
+    <div class="column medium-5 small-12">
+      <p> <label>Correo electrónico:</label></p>
+    </div>
+    <div class="column medium-7 small-12">
+      <input class="mailclie creditcard" id="mailusr" type="text" value="info@logintechcr.com"> 
+    </div>
+    <div class="column medium-5 small-12">
+      <p> <label>Cédula:</label></p>
+    </div>
+    <div class="column medium-7 small-12">
+      <input class="cedclie creditcard" id="cedusr" type="text" value="201110222" placeholder="Física | Jurídica"> 
+    </div>
+    </div>
+  </div>
+</div>
+<!-- ************************************** -->
+<div class="card-details column medium-6 center-text-for-small-only">
+<div class="product-details-add-to-cart">
+  <p><span class="card-data">Datos de tarjeta</span></p>
+  <hr>
+  <div class="row">
+  <div class="column small-9">
+    <input class="numclie creditcard" type="text" id="numtarj" value="4111111111111111" placeholder="Número de tarjeta"> 
+  </div>
+  <div class="column small-3">
+    <input class="codseg creditcard" type="text" id="segcode" value="999" placeholder="CVV2"> 
+  </div>
+  <div class="column small-4">
+    <p> <label>Fecha de Expiración:</label></p>
+  </div>
+  <div class="column small-8">
+    <div class="row">
+      <div class="columns small-6">
+        <form class="product-option-selection">
+            <select>
+              <option value="">Mes</option>
+              {section name=LE loop=$MES}
+                <option value="{$MES[LE][0]}">{$MES[LE][1]}</option>
+              {/section}
+            </select>
+        </form>
+      </div>
+      <div class="columns small-6">
+        <form class="product-option-selection">
+            <select id="year">
+            </select>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+ <div class="large-12 columns" align="center"><br><br>
+    <button class="button btnrpago" type="submit" style="width: 80%" id="btnrpago1">Realizar Pago</button>
+  </div>
+
+
+</div>
+<!--  -->
+</form>
+
+<div id="modal-cart" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+<br>
+    <div class="row">
+      <div class="small-12 columns"><h4>Carrito de compras</h4></div>
+    </div>
+    <hr style="margin-top: -15px !important">
+    <section id="listaproductos" align="center">
+    <!-- JS -->
+    </section>
+    <div class="row">
+      <div class="small-6 columns" align="right">
+        <b style="text-align: center">Subtotal<br>(<span id="cantart">0</span> artículos)</b>
+      </div>
+      <div class="small-6 columns">
+        <span style="font-size: 1.3em;">$ <span class="subtotcart">0.00</span></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-7 columns">&nbsp;</div>
+
+      <div class="large-5 columns" align="center"><br><br>
+        <button class="button success" id="btnrpago2">Realizar Pago</button>
+      </div>
+    </div>
+    <a class="close-reveal-modal" aria-label="Close" style="color: #686868 !important">&#215;</a>
+</div>
+
+
+<!--     <div class="large-6 medium-6 small-12 columns bg-white text-center">
+    <div class="row" style="height: 500px; max-height: 500px;">
+    <br><br><br><br>
+      <div class="large-12 medium-12 small-12 columns bg-white text-center"><br><br>
+        <a href="https://yappexperience.com/eventos/saicor-tcar1496280486783" target="_blank" class="hide-for-small-only"><img src="../assets/img/mensualidad_talleres.svg" width="20%"></a>
+        <a href="https://yappexperience.com/eventos/saicor-tcar1496280486783" target="_blank" class="show-for-small-only"><img src="../assets/img/mensualidad_talleres.svg" width="50%"></a>
+        <br>
+        <a href="https://yappexperience.com/eventos/saicor-tcar1496280486783" target="_blank"><h4 class="greyd-text">Comprar en <img src="../assets/img/yapp.png" width="8%" style="margin-top: -5px"></h4></a>
+          <div class="wrapper-x3"><br>
+            <label>Una vez registrado en Yapp, de clic en comprar y adquiera los Sellos que desee y pague la mensualidad si lo requiere</label>
+          </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    </div>
+
+    <div class="large-6 medium-6 small-12 columns bg-greyl3 text-center">
+    <div class="row" style="height: 500px; max-height: 500px;">
+    <br><br><br><br>
+      <div class="large-12 medium-12 small-12 columns bg-greyl3 text-center"><br><br>
+        <a href="https://yappexperience.com/register" target="_blank" class="hide-for-small-only"><img src="../assets/img/compra_talleres.svg" width="20%"></a>
+        <a href="https://yappexperience.com/register" target="_blank" class="show-for-small-only"><img src="../assets/img/compra_talleres.svg" width="50%"></a>
+        <br>
+        <a href="https://yappexperience.com/register" target="_blank"><h4 class="greyd-text">Registraese en <img src="../assets/img/yapp.png" width="8%" style="margin-top: -5px"></h4></a>
+        <div class="wrapper-x3"><br>
+          <label>Debe registrarse en YAPP con la misma cuenta de Usuario que en SAICOR, de lo contrario SAICOR no puede saber quién realizó la transacción</label>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    </div> -->
+
+  
+    {$FOOT}
+
+    <script src="../assets/js/modulos/system_carrito_taller.js"></script>
+  </body>
+</html>

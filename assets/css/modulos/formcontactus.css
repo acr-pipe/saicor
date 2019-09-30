@@ -1,0 +1,30 @@
+#main-contactus{
+    background-image: url('../../../assets/img/starspace.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#msjcliente{
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 100%;
+}
+
+#imgmoon{
+    width: 80%;
+    -webkit-animation-name: rotate;
+    -webkit-animation: rotate 150s linear infinite;
+}
+
+@keyframes rotate {
+    0%   {transform: rotate(0deg);}
+    50% {transform: rotate(15deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@media and screen(max-width: 400px){
+    #imgmoon{
+        width: 50%;
+    }
+}

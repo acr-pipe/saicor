@@ -1,0 +1,198 @@
+.border-bottom{
+    border-bottom: dashed rgba(163,163,163,0.5) 0.5px;
+}
+
+.border-right{
+    border-right: dashed rgba(163,163,163,0.5) 0.5px;
+}
+
+.main-row{
+    -webkit-border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+    -moz-border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+    -ms-border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+    -o-border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+    border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+}
+
+.user{
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+    border: 2px solid #DCDDDE;
+}
+
+.btn-car-info{
+    vertical-align: center;
+    border-radius: 100%;
+    color: transparent;
+}
+
+.btn-car{
+    vertical-align: center;
+    border-radius: 100%;
+    color: transparent;
+    font-size: 0.8em; 
+}
+
+.crd-ic-borderg{
+    border-top: 2px solid rgba(74,74,74,.9);
+    border-right: 2px solid rgba(74,74,74,.6);
+    border-bottom: 2px solid rgba(74,74,74,.3);
+    border-left: 2px solid rgba(74,74,74,.1)
+}
+
+.crd-ic-borderb{
+    border-top: 2px solid rgba(42,134,244,.9);
+    border-right: 2px solid rgba(42,134,244,.6);
+    border-bottom: 2px solid rgba(42,134,244,.3);
+    border-left: 2px solid rgba(42,134,244,.1)
+}
+
+.crd-ic-bordery{ 
+    border-top: 2px solid rgba(229,229,90,.9);
+    border-right: 2px solid rgba(229,229,90,.6);
+    border-bottom: 2px solid rgba(229,229,90,.3);
+    border-left: 2px solid rgba(229,229,90,0.1);
+}
+
+.crd-ic-borders{
+    border-top: 2px solid rgba(207,208,209,.9);
+    border-right: 2px solid rgba(207,208,209,.6);
+    border-bottom: 2px solid rgba(207,208,209,.3);
+    border-left: 2px solid rgba(207,208,209,0.1);
+}
+
+.vermas{ color: white; transition: .5s ease; }
+.vermas:hover{ color: #AEE26B; }
+/*.card-icon:hover{ background: #83BB3B !important; }*/
+
+#modal-car{
+    margin-top: -6%;
+}
+
+#modal-orbit .orbit-container{
+    height: 350px !important;
+    background: rgba(0,0,0,0.1);
+}
+
+.img-into-orbit{
+    margin: 0 auto;
+}
+
+.sub-image-orbit{
+    height: 50px; width: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .search{
+        width: 100% !important;
+    }
+    .sub-image-orbit{
+        height: 125px; width: 125px;
+    }
+    .sub-image-a{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .cont-sub-image-orbit{
+        overflow: auto;
+        max-height: 125px;
+        max-width: 100%;
+    }
+    #modal-orbit .orbit-container{
+        height: 240px !important;
+        background: rgba(0,0,0,0.1);
+    }
+}
+
+.nomuser{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #FAFAFA;
+    transition: 0.5s ease;
+}
+.nomuser:hover{
+    color: #87BC42;
+}
+
+.pict-vendedor-tab-modal{
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(250,250,250,0.8); 
+}
+
+#secondModal{
+  width: 300px !important;
+}
+
+
+/* TABS */
+.pict-vendedor-tab{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 2.4em;
+    -moz-border-radius: 2.4em;
+    -ms-border-radius: 2.4em;
+    -o-border-radius: 2.4em;
+    border-radius: 2.4em;
+    border: 2px solid rgba(250,250,250,0.5);
+}
+
+.pict-tab{
+  width: 50px;
+  height: 50px;
+}
+
+.tabs dd > a, .tabs .tab-title > a{
+  padding: 0 2rem !important;
+}
+
+.tabs dd > a, .tabs .tab-title > a{
+  background: transparent !important;
+}
+
+.esp{
+    color: #B3E177;
+    font-weight: bold;
+}
+
+.nomuser{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #FAFAFA;
+    transition: 0.5s ease;
+}
+.nomuser:hover{
+    color: #87BC42;
+}
+
+.pict-vendedor-tab-modal{
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(250,250,250,0.8); 
+}
+
+#secondModal{
+  width: 300px !important;
+}
+
+#seguridad{
+  max-height: 655px;
+  overflow: auto;
+}
+#confort{
+  max-height: 655px;
+  overflow: auto;
+}

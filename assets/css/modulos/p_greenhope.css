@@ -1,0 +1,30 @@
+.hover-div{
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    z-index: 1;
+}
+
+.hover-div:hover{
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    -ms-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    -o-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.hr{
+    transform: rotate(90deg);
+    background-color: #484848;
+    height: 2px;
+    margin: 0 auto;
+    width: 3%;
+}

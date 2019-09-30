@@ -1,0 +1,193 @@
+/*CONTRASEÑA*/
+.info_div {
+  z-index: 500;
+  position: absolute;
+  bottom: -75px;
+  bottom: -115px\9;
+  /* IE Specific */
+  right: 55px;
+  width: 250px;
+  padding: 15px;
+  background: #fefefe;
+  font-size: .875em;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #ccc;
+  border: 1px solid #ddd;
+}
+.info_div h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+}
+.info_div::before {
+  content: "\25B2";
+  position: absolute;
+  top: -12px;
+  left: 45%;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  text-shadow: none;
+  display: block;
+}
+.invalid {
+/*  background: url(../images/invalid.png) no-repeat 0 50%;*/
+  padding-left: 22px;
+  line-height: 24px;
+  color: #ec3f41;
+}
+.valid {
+/*  background: url(../images/valid.png) no-repeat 0 50%;*/
+  padding-left: 22px;
+  line-height: 24px;
+  color: #3a7d34;
+}
+.info_div {
+  display: none;
+}
+/**/
+
+#aliasusuario{
+    cursor: not-allowed;
+}
+
+#userpass{
+    cursor: not-allowed;
+}
+
+.btn-green-conf{
+    padding: 1.5% 10% !important;
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    -ms-border-radius: 0.5em !important;
+    -o-border-radius: 0.5em !important;
+    border-radius: 0.5em !important;
+    background: rgba(0,0,0,0.2) !important;
+}
+.btn-green-conf:hover{
+    background: #87BC42 !important;
+}
+
+.pic-contain{
+    height: 50px;
+    width: 50px;
+    -webkit-border-radius: 8em 8em;
+    -moz-border-radius: 8em 8em;
+    -ms-border-radius: 8em 8em;
+    -o-border-radius: 8em 8em;
+    border-radius: 8em 8em;
+    border: 2px solid rgba(250,250,250,0.4);
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.pic-contain:hover{
+    border: 2px solid #8BC042;
+    transform: scale(1.2);
+}
+
+*[name=active]{
+    border: 2px solid #8BC042;
+    transform: scale(1.4);
+}
+
+span.postfix{
+    background: #555 !important;
+    color: #FAFAFA !important;
+    -webkit-border-radius: 0.5em 0em 0em 0.5em;
+    -moz-border-radius: 0.5em 0em 0em 0.5em;
+    -ms-border-radius: 0.5em 0em 0em 0.5em;
+    -o-border-radius: 0.5em 0em 0em 0.5em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    border: 1px #666 !important;
+}
+
+span.postp{
+    margin-left: -35px;
+    background: #555 !important;
+    color: #FAFAFA !important;
+    -webkit-border-radius: 0em 0.5em 0.5em 0em;
+    -moz-border-radius: 0em 0.5em 0.5em 0em;
+    -ms-border-radius: 0em 0.5em 0.5em 0em;
+    -o-border-radius: 0em 0.5em 0.5em 0em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    border: 1px #666 !important;   
+}
+
+input.input{
+    background: #666 !important;
+    color: #FAFAFA !important;
+    border: 1px #666 !important;
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    -ms-border-radius: 0.5em !important;
+    -o-border-radius: 0.5em !important;
+    border-radius: 0.5em !important;
+}
+
+input.input-conf{
+    background: #666 !important;
+    color: #FAFAFA !important;
+    border: 1px #666 !important;
+    -webkit-border-radius: 0em 0.5em 0.5em 0em !important;
+    -moz-border-radius: 0em 0.5em 0.5em 0em !important;
+    -ms-border-radius: 0em 0.5em 0.5em 0em !important;
+    -o-border-radius: 0em 0.5em 0.5em 0em !important;
+    border-radius: 0em 0.5em 0.5em 0em !important;
+}
+
+*::-moz-placeholder{
+    color: #FAFAFA !important;
+}
+
+.tit-datov{
+    color: #C8C8C8;
+}
+
+select.opt-garaje{
+    background: #666 !important;
+    color: #FAFAFA !important;
+    -webkit-border-radius: 0em 0.5em 0.5em 0em !important;
+    -moz-border-radius: 0em 0.5em 0.5em 0em !important;
+    -ms-border-radius: 0em 0.5em 0.5em 0em !important;
+    -o-border-radius: 0em 0.5em 0.5em 0em !important;
+    border-radius: 0em 0.5em 0.5em 0em !important;
+    border: 1px #666 !important;
+    width: 100% !important;
+}
+
+select.opt-conf{
+    background: #666 !important;
+    color: #FAFAFA !important;
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    -ms-border-radius: 0.5em !important;
+    -o-border-radius: 0.5em !important;
+    border-radius: 0.5em !important;
+    border: 1px #666 !important;
+    width: 100% !important;
+}
+
+
+hr{
+    color: #686868 !important;
+    background-color: #686868 !important;
+    height: 2px !important;
+    width: 65%;
+    padding: 0;
+    margin-top: -15px !important;
+}
+
+@media screen and (max-width: 480px) {
+    hr{
+        color: #686868 !important;
+        background-color: #686868 !important;
+        height: 2px !important;
+        width: 85%;
+        padding: 0;
+        margin-top: -15px !important;
+    }    
+}

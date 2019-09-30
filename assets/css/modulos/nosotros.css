@@ -1,0 +1,11 @@
+#mision{
+    background-image: url(../../../assets/img/bgproductos.svg);
+    background-repeat: repeat-none;
+    background-attachment: fixed;
+    background-size: contain;
+    -webkit-filter: grayscale(50%);filter: grayscale(50%);
+    -moz-filter: grayscale(50%);filter: grayscale(50%);
+    -ms-filter: grayscale(50%);filter: grayscale(50%);
+    -o-filter: grayscale(50%);filter: grayscale(50%);
+    filter: grayscale(50%);filter: grayscale(50%);
+}

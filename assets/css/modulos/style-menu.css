@@ -1,0 +1,91 @@
+.nav-logo{
+    max-width: 100px;
+    height: auto;
+}
+
+ul.left{ padding-left: 2%; }
+
+.reveal-modal-bg{
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+#login{
+    /*max-width: 400px;*/
+}
+
+.f-dropdown.drop-left{
+    background: #333 !important;
+}
+
+.carttaller{
+    background: rgba(0,0,0,0.4) !important;
+}
+.carttaller:hover{
+    background: rgba(150,217,70,0.5) !important;
+}
+
+#linomuser{
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+#linomuser:hover{
+    background: rgba(150,217,70,1);
+}
+
+.nomuser{
+    background: #333 !important;
+}
+
+.btn-login{
+    padding: 1.2% 5%;
+    font-size: 0.8em;
+    font-weight: 500;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+
+.close-reveal-modal{
+    padding: 0px 6px;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    border-radius: 0.5em;
+    color: #FAFAFA !important;
+}
+
+#shoppcart{
+    margin: 0px 15px 0 55px !important;
+}
+
+.panel-login{
+    margin: 0 auto;
+    background-color: #6A6A6A;
+    border-color: #6A6A6A;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+
+.input-login{
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    -ms-border-radius: 0.5em !important;
+    -o-border-radius: 0.5em !important;
+    border-radius: 0.5em !important;
+}
+
+#frame-login{
+    width: 100% !important;
+    height: 550px!important;
+    margin-top: -15% !important;
+    border-radius: 0em 0em 1em 0em;
+}

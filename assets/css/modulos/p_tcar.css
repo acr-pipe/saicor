@@ -1,0 +1,145 @@
+.bdy{
+    background: #ECECEC;
+}
+
+.clasif{
+    text-decoration: none;
+    color: #222;
+    padding: 1.5% 3%;
+    border: 1px solid #87BC42;
+    border-radius: 0.25em;
+    transition: ease .5s;
+
+}
+.clasif:hover{
+    color: #fafafa;
+    background-color: #87BC42;
+}
+
+.plant{
+    text-decoration: none;
+    color: #222;
+    padding: 1.5% 3%;
+    border: 1px solid #ECB83A;
+    border-radius: 0.25em;
+    transition: ease .5s;
+
+}
+.plant:hover{
+    color: #fafafa;
+    background-color: #ECB83A;
+}
+
+.num{
+    color: #333;
+    background-color: #87BC42;
+    padding: 2px 7px 2px 7px;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -ms-border-radius: 2.5em;
+    -o-border-radius: 2.5em;
+    border-radius: 2.5em;
+}
+
+#tablemodal{
+    margin: 0 auto; 
+}
+
+#table1{
+    margin: 0 auto; 
+}
+
+.num2{
+    color: #F4F4F4;
+    background-color: #87BC42;
+    padding: 2px 7px 2px 7px;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    -ms-border-radius: 2.5em;
+    -o-border-radius: 2.5em;
+    border-radius: 2.5em;
+}
+
+#table2 tr td{
+    background-color: #DCDDDE;
+    border-color: #DCDDDE;
+}
+
+#table3 tr td{
+    background-color: #333;
+    border: solid 1px #333;
+}
+
+#sectimg{
+    background-image: url('../../../assets/img/penta_.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#imgtall{
+    position: inherit;
+    z-index: 2;
+    width: 18%;
+    margin-left: 92px;
+    margin-top: -140px;
+    transition: 0.5s ease;
+}
+#imgtall:hover{
+    transform: scale(1.2);
+}
+
+#imgtecn{
+    position: inherit;
+    z-index: 2;
+    width: 18%;
+    margin-left: 27px;
+    margin-top: -140px;;
+    transition: 0.5s ease;
+}
+#imgtecn:hover{
+    transform: scale(1.2);
+}
+
+#imgvehi{
+    position: inherit;
+    z-index: 2;
+    width: 18%;
+    margin-left: -50px;
+    margin-top: 110px;
+    transition: 0.5s ease;
+}
+#imgvehi:hover{
+    transform: scale(1.2);
+}
+
+#imgcond{
+    position: inherit;
+    z-index: 2;
+    width: 18%;
+    margin-left: -184px;
+    margin-top: 295px;
+    transition: 0.5s ease;
+}
+#imgcond:hover{
+    transform: scale(1.2);
+}
+
+#imgemis{
+    position: inherit;
+    z-index: 2;
+    width: 18%;
+    margin-left: -185px;
+    margin-top: 110px;
+    transition: 0.5s ease;
+}
+#imgemis:hover{
+    transform: scale(1.2);
+}
+
+.has-tip{
+    border: none !important;
+    /*cursor: pointer !important;*/
+}

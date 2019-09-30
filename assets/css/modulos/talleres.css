@@ -1,0 +1,88 @@
+input.search{
+    background-color: #bFC1C2 !important;
+    -webkit-border-radius: .5em !important;
+    -moz-border-radius: .5em !important;
+    -ms-border-radius: .5em !important;
+    -o-border-radius: .5em !important;
+    border-radius: .5em !important;
+}
+
+input.search:focus{
+    background-color: rgba(191,193,194,0.8) !important;
+    border: none;
+}
+
+select.opt-talleres{
+    text-align: center;
+    padding: 0;
+    height: 30px;
+    background-color: #bFC1C2 !important;
+    -webkit-border-radius: .5em !important;
+    -moz-border-radius: .5em !important;
+    -ms-border-radius: .5em !important;
+    -o-border-radius: .5em !important;
+    border-radius: .5em !important;
+}
+
+.div-talleres{
+    border: 2px solid #999 !important;
+}
+
+.ico-gal{
+    width: 60%;
+}
+
+.btn{
+    padding: 15px 10px 10px 10px;
+    background-color: #87BC42;
+    color: #333;
+    -webkit- border-radius: .5em;
+    -moz- border-radius: .5em;
+    -ms- border-radius: .5em;
+    -o- border-radius: .5em;
+     border-radius: .5em;
+}
+
+.btn-search{
+    padding: 15px 8px 10px 8px;
+    background-color: #87BC42;
+    color: #333;
+    -webkit- border-radius: 2.5em;
+    -moz- border-radius: 2.5em;
+    -ms- border-radius: 2.5em;
+    -o- border-radius: 2.5em;
+     border-radius: 2.5em;
+}
+
+.btn:hover{
+    background-color: #71A033;
+    color: #FAFAFA;
+}
+
+table{
+    background: #DCDDDE !important;
+}
+
+.tr{
+    border-bottom: 2px solid #999;
+}
+
+.img-taller{
+    width: 100%;
+}
+
+@media screen and (min-width: 480px ){
+    .img-taller{
+        width: 100%;
+    }
+}
+
+#preload{
+    position: fixed;
+    background: #DCDDDE;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    padding: 0;
+    display: none;
+}

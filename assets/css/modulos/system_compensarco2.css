@@ -1,0 +1,101 @@
+.pic-contain{
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 8em 8em;
+    -moz-border-radius: 8em 8em;
+    -ms-border-radius: 8em 8em;
+    -o-border-radius: 8em 8em;
+    border-radius: 8em 8em;
+    border: 3px solid rgba(250,250,250,0.4);
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.pic-contain:hover{
+    border: 3px solid #79C74E;
+}
+
+.chk{
+    color: #79C74E;
+    position: absolute;
+    margin-left: -25px;
+    top: 80px;
+}
+
+*[name=active]{
+    border: 3px solid #8BC042;
+}
+
+.bullet-item{
+    background: #EEEEEE;
+    padding: 0 !important;
+    padding-top: 0.5em !important;
+}
+
+.text08em{
+    font-size: 0.9em !important;
+    color: #FAFAFA !important;
+}
+
+#info2{
+    display: block;
+    transition: 0.5s ease;
+}
+
+.lipic{
+    padding: 0.5em;
+    color: #FAFAFA;
+}
+
+.licomp{
+    padding: 0.5em;
+    background: #FAFAFA;
+    border-bottom: dashed 0.2px #E0E0E0;
+}
+
+#btn-calcular{
+    background: #74C037;
+    padding: 0.5em;
+    color: #FAFAFA;
+}
+
+.calc{
+    background: #74C037;
+    padding: 0.3em;
+    color: #FAFAFA;
+}
+
+.blur{
+    opacity: 0.3;
+}
+
+.hypfonafifo{
+    color: #88CC51;
+    transition: 0.5s ease;
+}
+
+.hypfonafifo:hover{
+    color: #232323;
+    padding: 0.2px 0.5px;
+    background: #88CC51;
+    -webkit-border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -ms-border-radius: 0.25em;
+    -o-border-radius: 0.25em;
+    border-radius: 0.25em;
+}
+
+.bggasolina{
+    background-image: url('../../../assets/img/bggasolina.svg');
+    background-size: contain;
+    background-repeat: none;
+}
+
+.bgdiesel{
+    background-image: url('../../../assets/img/bgdiesel.svg');
+    background-size: contain;
+    background-repeat: none;
+}

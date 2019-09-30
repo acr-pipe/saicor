@@ -1,0 +1,50 @@
+#ghope-logo{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35%;
+}
+
+#sfauna-logo{
+    margin-top: 20%;
+    background-color: #efece5;
+    background-image: url("../../../assets/img/salvafauna.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+#neoklass-logo{
+    margin-top: 20%;
+    background-color: white;
+    background-image: url("../../../assets/img/NeoKlass.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+#tcar-logo{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0%;
+}
+
+#soft-logo{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35%;
+}
+
+#btn-galery{
+    color: #FAFAFA;
+    background: #006F34 !important;
+}
+#btn-galery:hover{
+    color: #FAFAFA;
+    background: #004F25 !important;
+}

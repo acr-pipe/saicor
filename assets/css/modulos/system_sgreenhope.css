@@ -1,0 +1,54 @@
+.tab1-trh{
+    background: #8AC342;
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab1-th{
+    background: #B2E077;
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab1-tr{
+    /*background: #FAFAFA;*/
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab1-td{
+    background: #FAFAFA;
+    border: 2px solid #333;
+    padding: 1em;
+}
+
+
+.tab2-trh{
+    background: #8AC3FF;
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab2-th{
+    background: #B2E0FF;
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab2-tr{
+    /*background: #FAFAFA;*/
+    border: 2px solid #333;
+    padding: 1em;
+}
+.tab2-td{
+    /*background: #FAFAFA;*/
+    border: 2px solid #333;
+    padding: 1em;
+}
+
+.btn-download{
+    color: #232323;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.btn-download:hover{
+    color: #232323;
+    opacity: 1;
+}
+/*.btn-adobde*/

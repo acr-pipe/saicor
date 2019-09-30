@@ -1,0 +1,122 @@
+*,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: 'Avenir LT Std 45 Book';
+}
+
+.mynotify{
+    z-index: 9000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('AvenirLTStd-Book.woff') format('woff');
+}
+.hide{ display: none; }
+.upp{ text-transform: uppercase; }
+.pbtn{ cursor:pointer !important; }
+.badge {
+    color: #333;
+    font-size: 9px;
+    padding: 0.2rem 0.4rem;
+    background: #BCE686;
+    -webkit-border-radius: 1.5px 1.5px;
+    -moz-border-radius: 1.5px 1.5px;
+    -ms-border-radius: 1.5px 1.5px;
+    -o-border-radius: 1.5px 1.5px;
+    border-radius: 1.5px 1.5px;
+}
+
+
+.container-x{ padding: 0.5%;}
+.container{ padding: 1% 1% 1% 1%;}
+.container-sm{ padding: 4% 15% 4% 15%;}
+.wrapper{ padding: 0% 10% 0% 10%;}
+.wrapper-x2{ padding: 0% 20% 0% 20%;}
+.wrapper-x3{ padding: 0% 30% 0% 30%;}
+
+.btn-radius{
+    -webkit- border-radius: 0.5em;
+    -moz- border-radius: 0.5em;
+    -ms- border-radius: 0.5em;
+    -o- border-radius: 0.5em;
+     border-radius: 0.5em;
+}
+
+.btn-border-red{
+    background: transparent !important;
+    color: #EB5858;
+    -webkit-border: 1px solid #EB5858 !important;
+    -moz-border: 1px solid #EB5858 !important;
+    -ms-border: 1px solid #EB5858 !important;
+    -o-border: 1px solid #EB5858 !important;
+    border:  1px solid #EB5858 !important;
+    transition: ease 0.3s !important;
+}
+.btn-border-red:hover{background: #E24A4A !important;}
+
+.btn-border-green{
+    background: transparent !important;
+    color: #6AB042;
+    -webkit-border: 1px solid #6AB042 !important;
+    -moz-border: 1px solid #6AB042 !important;
+    -ms-border: 1px solid #6AB042 !important;
+    -o-border: 1px solid #6AB042 !important;
+    border:  1px solid #6AB042 !important;
+    transition: ease 0.3s !important;
+}
+.btn-border-green:hover{background: #4E8C2C !important;}
+
+.btn-red{background: #EC8585 !important; transition: ease 0.3s !important;}
+.btn-red:hover{background: #D36D6D !important;} 
+.btn-green{background: #99CD56 !important; transition: ease 0.3s !important;}
+.btn-green:hover{background: #86BB42!important;}
+.btn-orange{color:#232323; background: #F5BD34 !important; transition: ease 0.3s !important;}
+.btn-orange:hover{color:#232323; background: #FFD05D!important;}
+.btn-green-dark{background: #86BB42 !important; transition: ease 0.3s !important;}
+.btn-green-dark:hover{background: #6E9E31 !important;}
+.btn-grey{background: #CFCFCF !important; color: #333 !important; transition: ease 0.3s !important;}
+.btn-grey:hover{background: #919191 !important;}
+.btn-blue{background: #70BFEC !important; transition: ease 0.3s !important;}
+.btn-blue:hover{background: #4DA0CF !important;} 
+
+.blue-text{ color: #70BFEC;}
+.red-text{ color: #EC8585;}
+.grey-text{color: #F0F0F0;}
+.greyd-text{color: #626262;}
+.black-text{color: #484848;}
+.white-text{color: #F4F4F4;}
+.dark-text{color: #333;}
+.greend-text{color: #649721;}
+.green-text{color: #99CD56;}
+.green-ligth-text{color: #AEE26B;}
+.darkl2-text{color: #2E2E2E;}
+.darkl3-text{color: #474747;}
+.ambar-text{color: #E9B775;}
+.orange-text{color: #E7B63E;}
+
+.float-text{font-size: 1.3em}
+
+.bg-white{background-color: #FFF !important;}
+.bg-greyl2{background-color: #D6D6D6 !important;}
+.bg-greyl3{background-color: #DCDDDE !important;}
+.bg-greyl5{background-color: #EAEAEA !important;}
+.bg-greyd4{background-color: #484848 !important;}
+.bg-greyd5{background-color: #282828 !important;}
+.bg-dark{background-color: #333 !important; color: #F4F4F4;}
+.bg-darkl2{background-color: #2E2E2E !important; color: #F4F4F4;}
+.bg-darkl2{background-color: #474747 !important; color: #F4F4F4;}
+.bg-darkd2{background-color: #2D2D2D !important; color: #F4F4F4;}
+.bg-darkd3{background-color: #202020 !important; color: #F4F4F4;}
+.bg-greend{background-color: #94D145 !important;}
+.bg-green{background-color: #99CD56 !important;}
+.bg-green-ligth{background-color: #AEE26B !important;}
+.bg-red{background-color: #EC8585 !important;}
+.bg-ambar{background-color: #E9B775 !important;}
+.bg-orange{background-color: #ECB83A !important}

@@ -1,0 +1,42 @@
+/*DROPZONE*/
+.dropzone.dz-clickable {
+    cursor: pointer;
+}
+.dropzone {
+    border: 2px dashed #9AF549 !important;/*0087F7*/
+    border-radius: 5px !important;
+    background: rgba(0,0,0,0.1) !important;
+    min-height: 150px !important;
+    padding: 30px 10px !important;
+}
+form {
+    display: block;
+    min-height: 150px !important;
+    max-height: 150px !important;
+    overflow: auto;
+}
+.dropzone .dz-preview.dz-image-preview {
+    background: transparent !important;
+}
+.dropzone .dz-preview {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    min-height: 100px;
+}
+.dropzone.dz-clickable * {
+    cursor: default;
+}
+/*DROPZONE*/
+
+.postfix{
+    background: #99CD56 !important;
+    border: none !important;
+    color: #3F3F3F !important;
+    -webkit-border-radius: 0em 0.5em 0.5em 0em;
+    -moz-border-radius: 0em 0.5em 0.5em 0em;
+    -ms-border-radius: 0em 0.5em 0.5em 0em;
+    -o-border-radius: 0em 0.5em 0.5em 0em;
+    border-radius: 0em 0.5em 0.5em 0em;
+}

@@ -1,0 +1,23 @@
+.pbtn{
+    padding: 0.5em;
+}
+
+.icon{
+    color: #232323 !important;
+}
+
+.fa-check:hover{
+    color: #86D552;
+}
+
+.fa-times:hover{
+    color: #E76969;
+}
+
+table{
+    border: none !important;
+}
+
+th{
+    background: #ECB83A;
+}
